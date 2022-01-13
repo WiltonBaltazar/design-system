@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJ3sh_50qk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLFtR_50qk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v16/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body{
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Roboto Slab';
+}
+
+h1,h2{
+    font-family: 'Ruda';
+}
+
+p{
+    font-family: 'Roboto Slab';
+}
+
+.main-heading{
+    margin-bottom: 30px;
+    font-family: 'Ruda';
+    font-weight: 800;
+}
+.section-container{
+    border: 2px solid darkgray;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+
+.subheading{
+    margin-bottom: 50px ;
+    font-family: 'Ruda';
+    font-weight: 500;
+}
+
+.box{
+    display: inline-block;
+    width: 32%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+    color: #fff;
+   
+}
+
+
+.box-1{
+    background-color: #FA1E37;
+}
+.box-2{
+    background-color: #DB16CF;
+}
+.box-3{
+    background-color: #9514F0;
+}
+.box-4{
+    background-color: #2207D9;
+}
+
+.box-font {
+    width: 49%;
+    margin: 10px auto;
+    display: inline-block;
+}
+.box-font h3{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.box-font p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.font-roboto-slab{
+    font-family: 'Roboto Slab';
+}
+
+.font-ruda{
+    font-family: 'Ruda';
+}
+
